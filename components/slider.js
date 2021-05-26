@@ -1,6 +1,7 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import Title from "./title";
+import Image from "next/image";
 
 const Slider = () => {
   return (
@@ -12,24 +13,26 @@ const Slider = () => {
         showThumbs={false}
         showIndicators={false}
         autoPlay={true}
+        centerMode={true}
+        centerSlidePercentage={50}
       >
         <div>
-          <img src="images/label/1.png" />
+          <Image src="/images/label/1.png" width="400px" height="400px" />
         </div>
         <div>
-          <img src="images/label/2.png" />
+          <Image src="/images/label/2.png" width="400px" height="400px" />
         </div>
         <div>
-          <img src="images/label/3.png" />
+          <Image src="/images/label/3.png" width="400px" height="400px" />
         </div>
         <div>
-          <img src="images/label/4.png" />
+          <Image src="/images/label/4.png" width="400px" height="400px" />
         </div>
         <div>
-          <img src="images/label/5.png" />
+          <Image src="/images/label/5.png" width="400px" height="400px" />
         </div>
         <div>
-          <img src="images/label/6.png" />
+          <Image src="/images/label/6.png" width="400px" height="400px" />
         </div>
       </Carousel>
     </section>
