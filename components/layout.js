@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "./footer";
 import Navbar from "./navbar";
 
 export const siteTitle = "The Best Coffee Shop in Town";
@@ -14,6 +15,7 @@ const Layout = ({ children }) => {
       </Head>
       <Navbar />
       <main>{children}</main>
+      <Footer />
     </div>
   );
 };

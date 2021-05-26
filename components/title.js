@@ -3,19 +3,14 @@ const Title = ({ text, size }) => {
     <div style={{ padding: "2rem" }}>
       <div
         style={{
-          width: "15rem",
+          borderTop: "2px solid rgb(68, 68, 68)",
           borderBottom: "2px solid rgb(68, 68, 68)",
-          margin: "0 auto 1rem",
+          margin: "1rem",
+          padding: "1rem",
         }}
-      ></div>
-      <h1 className={size + " text-center"}>{text}</h1>
-      <div
-        style={{
-          width: "15rem",
-          borderBottom: "2px solid rgb(68, 68, 68)",
-          margin: "1rem auto 0",
-        }}
-      ></div>
+      >
+        <h1 className={size + " text-center"}>{text}</h1>
+      </div>
     </div>
   );
 };

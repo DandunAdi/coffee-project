@@ -4,6 +4,7 @@
 :root {
   --colorPrimary: rgb(68, 68, 68);
   --gray: #979a9d;
+  --darkGray: #595959;
 }
 
 html,
