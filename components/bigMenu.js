@@ -13,7 +13,7 @@ const BigMenu = ({ title, imgSrc }) => {
             margin: "0 auto 1rem",
           }}
         ></div>
-        <h1 className={styles.title}>{title}</h1>
+        <h1 className={styles.title + " xxl"}>{title}</h1>
         <div
           style={{
             width: "5rem",
