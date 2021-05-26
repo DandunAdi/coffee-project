@@ -1,27 +1,11 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import styles from "./slider.module.css";
+import Title from "./title";
 
 const Slider = () => {
   return (
-    <section className={styles.container + " dot-bg"}>
-      <div className={styles.title}>
-        <div
-          style={{
-            width: "15rem",
-            borderBottom: "2px solid rgb(68, 68, 68)",
-            margin: "0 auto 1rem",
-          }}
-        ></div>
-        <h1 className="xxl text-center">CURRENTLY ROASTING</h1>
-        <div
-          style={{
-            width: "15rem",
-            borderBottom: "2px solid rgb(68, 68, 68)",
-            margin: "1rem auto 0",
-          }}
-        ></div>
-      </div>
+    <section className="dot-bg" style={{ padding: "2rem 0" }}>
+      <Title text="CURRENTLY ROASTING" size="xxl" />
       <Carousel
         infiniteLoop={true}
         showStatus={false}

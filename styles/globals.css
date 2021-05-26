@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 
 :root {
   --colorPrimary: rgb(68, 68, 68);
-  --colorGray: #979a9d;
+  --gray: #979a9d;
 }
 
 html,

@@ -1,0 +1,29 @@
+.container {
+  background-image: url("/images/coffee_plant.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15rem 0 8rem;
+}
+
+.content {
+  background-color: var(--gray);
+  text-shadow: 1px 1px #000;
+  color: #fff;
+  padding: 8rem 3rem;
+  font-weight: 400;
+  margin: 0 1rem;
+  letter-spacing: 2px;
+  position: relative;
+}
+.contentBody {
+  line-height: 1.5rem;
+  letter-spacing: normal;
+  margin-top: 2rem;
+  font-weight: 300;
+}
+.contentBg {
+  position: absolute;
+  right: 0;
+  top: 10%;
+  opacity: 0.6;
+}
