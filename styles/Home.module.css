@@ -1,0 +1,25 @@
+.heroContainer {
+  background-color: black;
+  position: relative;
+}
+.hero {
+  min-height: 100vh;
+  background-image: url("/images/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.6;
+}
+
+.bigMenuItem {
+  height: 31.25rem;
+  overflow: hidden;
+  position: relative;
+}
+.bigMenuItemTitle {
+  color: #fff;
+  font-size: 2.8125rem;
+  font-weight: 200;
+  letter-spacing: 2px;
+}

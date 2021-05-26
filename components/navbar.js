@@ -5,10 +5,12 @@ const Navbar = () => {
   return (
     <div className={styles.container + " flex flex-between"}>
       <div className="flex">
-        <Image src="/images/rumahkopi.png" width="50px" height="50px" />
-        <span>RUMAH KOPI BANJARNEGARA</span>
+        <Image src="/images/rumahkopi.png" width="30px" height="30px" />
+        <span className="lg bold" style={{ marginLeft: "0.5rem" }}>
+          RUMAH KOPI BANJARNEGARA
+        </span>
       </div>
-      <i className="fa fa-bars"></i>
+      <i className="fa fa-bars lg"></i>
     </div>
   );
 };

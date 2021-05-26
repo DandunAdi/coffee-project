@@ -6,3 +6,31 @@
 .flex-between {
   justify-content: space-between;
 }
+.abs-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.xxl {
+  font-size: xx-large;
+}
+.xl {
+  font-size: x-large;
+}
+.lg {
+  font-size: large;
+}
+.md {
+  font-size: medium;
+}
+.sm {
+  font-size: small;
+}
+.xs {
+  font-size: x-small;
+}
+.bold {
+  font-weight: bold;
+}
