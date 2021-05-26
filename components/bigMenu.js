@@ -4,9 +4,7 @@ import styles from "./bigMenu.module.css";
 const BigMenu = ({ title, imgSrc }) => {
   return (
     <div className={styles.container}>
-      <div className={styles.bgImage}>
-        <Image src={imgSrc} width="640" height="800" />
-      </div>
+      <Image src={imgSrc} width="640" height="800" />
       <div className="abs-center">
         <div
           style={{
@@ -15,7 +13,7 @@ const BigMenu = ({ title, imgSrc }) => {
             margin: "0 auto 1rem",
           }}
         ></div>
-        <h1 className={styles.title + " xxl"}>{title}</h1>
+        <h1 className={styles.title + " xxl text-center"}>{title}</h1>
         <div
           style={{
             width: "5rem",
