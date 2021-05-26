@@ -16,24 +16,15 @@ const Slider = () => {
         centerMode={true}
         centerSlidePercentage={50}
       >
-        <div>
-          <Image src="/images/label/1.png" width="400px" height="400px" />
-        </div>
-        <div>
-          <Image src="/images/label/2.png" width="400px" height="400px" />
-        </div>
-        <div>
-          <Image src="/images/label/3.png" width="400px" height="400px" />
-        </div>
-        <div>
-          <Image src="/images/label/4.png" width="400px" height="400px" />
-        </div>
-        <div>
-          <Image src="/images/label/5.png" width="400px" height="400px" />
-        </div>
-        <div>
-          <Image src="/images/label/6.png" width="400px" height="400px" />
-        </div>
+        {[1, 2, 3, 4, 5, 6].map((i) => (
+          <div>
+            <Image
+              src={`/images/label/${i}.png`}
+              width="400px"
+              height="400px"
+            />
+          </div>
+        ))}
       </Carousel>
     </section>
   );
