@@ -4,7 +4,7 @@ import styles from "./slider.module.css";
 
 const Slider = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container + " dot-bg"}>
       <div className={styles.title}>
         <div
           style={{
@@ -30,13 +30,22 @@ const Slider = () => {
         autoPlay={true}
       >
         <div>
-          <img src="images/coffee_at_hand.jpg" />
+          <img src="images/label/1.png" />
         </div>
         <div>
-          <img src="images/coffee_at_hand.jpg" />
+          <img src="images/label/2.png" />
         </div>
         <div>
-          <img src="images/coffee_at_hand.jpg" />
+          <img src="images/label/3.png" />
+        </div>
+        <div>
+          <img src="images/label/4.png" />
+        </div>
+        <div>
+          <img src="images/label/5.png" />
+        </div>
+        <div>
+          <img src="images/label/6.png" />
         </div>
       </Carousel>
     </section>
