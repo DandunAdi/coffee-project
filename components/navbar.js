@@ -12,7 +12,7 @@ const Navbar = () => {
           RUMAH KOPI BANJARNEGARA
         </span>
       </div>
-      <div className="flex" style={{ width: "30px", height: "30px" }}>
+      <div className="flex" style={{ width: "20px", height: "30px" }}>
         <i className="fa fa-bars lg"></i>
       </div>
     </div>
