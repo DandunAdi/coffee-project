@@ -4,7 +4,9 @@ import styles from "./bigMenu.module.css";
 const BigMenu = ({ title, imgSrc }) => {
   return (
     <div className={styles.container}>
-      <Image src={imgSrc} width="640" height="800" />
+      <div className={styles.bgImage}>
+        <Image src={imgSrc} width="640" height="800" />
+      </div>
       <div className="abs-center">
         <div
           style={{

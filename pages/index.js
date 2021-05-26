@@ -29,12 +29,7 @@ export default function Home() {
         <Content />
         <section className="dot-bg" style={{ padding: "2rem 0" }}>
           <Title text="KOMPLEK RUKO ATRIUM SQUARE BANJARNEGARA" size="xl" />
-          <div className="flex">
-            <i
-              className="far fa-clock"
-              style={{ width: "64px", height: "64px" }}
-            ></i>
-          </div>
+          <div className="flex"></div>
           <div className="lg text-center" style={{ marginTop: "2rem" }}>
             <h4>Weekdays: 14:00 - 23:00</h4>
             <h4 style={{ marginTop: "1rem" }}>Weekend: 14:00 - 23:00</h4>
