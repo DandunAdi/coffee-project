@@ -1,10 +1,16 @@
 .container {
   background-color: #fff;
   padding: 0 1rem;
-  height: 12vh;
+  height: 5rem;
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   z-index: 99;
+}
+
+@media (min-width: 48rem) {
+  .container {
+    padding: 0 2rem;
+  }
 }

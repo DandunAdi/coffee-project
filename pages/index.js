@@ -20,7 +20,7 @@ export default function Home() {
             <Image src="/images/rumahkopi.png" width="200" height="200" />
           </div>
         </section>
-        <section>
+        <section className={styles.bigMenuContainer}>
           <BigMenu imgSrc="/images/coffee_at_hand.jpg" title="ABOUT US" />
           <BigMenu imgSrc="/images/brew_coffee.jpg" title="GALLERY" />
           <BigMenu imgSrc="/images/coffee_shop.jpg" title="LOCATIONS" />

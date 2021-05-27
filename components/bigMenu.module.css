@@ -14,3 +14,9 @@
   font-weight: 200;
   letter-spacing: 2px;
 }
+
+@media (min-width: 48rem) {
+  .container {
+    height: 25rem;
+  }
+}

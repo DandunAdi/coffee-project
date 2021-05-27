@@ -13,6 +13,7 @@
   font-weight: 400;
   margin: 0 1rem;
   letter-spacing: 2px;
+  overflow: hidden;
   position: relative;
 }
 .contentBody {
@@ -25,4 +26,11 @@
   right: 0;
   top: 10%;
   opacity: 0.2;
+}
+
+@media (min-width: 48rem) {
+  .content {
+    width: 70vw;
+    margin-left: auto;
+  }
 }
