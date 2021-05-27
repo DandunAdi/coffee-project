@@ -35,10 +35,16 @@
   font-size: small;
 }
 .xs {
-  font-size: x-small;
+  font-size: 0.875rem;
+}
+.font-primary {
+  font-family: "Abel";
 }
 .bold {
   font-weight: bold;
+}
+.thin {
+  font-weight: 300;
 }
 .text-center {
   text-align: center;

@@ -31,7 +31,7 @@ export default function Home() {
           <Title text="KOMPLEK RUKO ATRIUM SQUARE BANJARNEGARA" size="xl" />
           <div className="flex">
             <svg
-              style={{ width: "4rem" }}
+              style={{ width: "4rem", color: "#979a9d" }}
               aria-hidden="true"
               focusable="false"
               data-prefix="far"
@@ -48,7 +48,7 @@ export default function Home() {
           </div>
           <div className="lg text-center" style={{ marginTop: "2rem" }}>
             <h4>Weekdays: 14:00 - 23:00</h4>
-            <h4 style={{ marginTop: "1rem" }}>Weekend: 14:00 - 23:00</h4>
+            <h4 style={{ marginTop: "1rem" }}>Weekend: 09:00 - 23:00</h4>
           </div>
         </section>
       </main>

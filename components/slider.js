@@ -17,7 +17,7 @@ const Slider = () => {
         centerSlidePercentage={50}
       >
         {[1, 2, 3, 4, 5, 6].map((i) => (
-          <div>
+          <div key={i}>
             <Image
               src={`/images/label/${i}.png`}
               width="400px"
