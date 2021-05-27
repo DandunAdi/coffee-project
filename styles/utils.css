@@ -49,6 +49,10 @@
 .text-center {
   text-align: center;
 }
+.ls-2 {
+  letter-spacing: 2px;
+}
+
 .dot-bg {
   background-image: url("/images/main_bg.png");
   background-repeat: no-repeat;

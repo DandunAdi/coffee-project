@@ -67,8 +67,8 @@ const Footer = () => {
       </div>
       <div>
         <p
-          className="xs text-center font-primary"
-          style={{ color: "#fff", padding: "2rem" }}
+          className="xs text-center thin"
+          style={{ color: "#979a9d", padding: "2rem" }}
         >
           &copy; 2021 Rumah Kopi Banjarnegara | Jl Pemuda Blok E No 25 Komplek
           Ruko Atrium Square Banjarnegara, Krandegan, Kec. Banjarnegara,
