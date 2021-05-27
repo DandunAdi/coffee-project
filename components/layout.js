@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Footer from "./footer";
+import GoTopButton from "./goTopButton";
 import Navbar from "./navbar";
 
 export const siteTitle = "The Best Coffee Shop in Town";
@@ -14,7 +15,10 @@ const Layout = ({ children }) => {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Navbar />
-      <main>{children}</main>
+      <main>
+        {children}
+        <GoTopButton />
+      </main>
       <Footer />
     </div>
   );
