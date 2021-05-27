@@ -11,8 +11,30 @@
   background-attachment: fixed;
   opacity: 0.6;
 }
+.heroLogo {
+  width: 250px;
+  height: 250px;
+}
+.heroSkipButton {
+  display: none;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  border: 2px solid #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
 
 @media (min-width: 48rem) {
+  .heroLogo {
+    width: 350px;
+    height: 350px;
+  }
+  .heroSkipButton {
+    display: flex;
+  }
   .bigMenuContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

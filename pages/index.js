@@ -16,8 +16,23 @@ export default function Home() {
       <main>
         <section className={styles.heroContainer}>
           <div className={styles.hero + " flex"}></div>
-          <div className="abs-center">
-            <Image src="/images/rumahkopi.png" width="200" height="200" />
+          <div className={styles.heroLogo + " abs-center"}>
+            <Image src="/images/rumahkopi.png" layout="fill" />
+          </div>
+          <div className={styles.heroSkipButton + " flex"}>
+            <svg
+              className="mk-svg-icon"
+              data-name="mk-jupiter-icon-arrow-bottom"
+              data-cacheid="icon-60b007279d24f"
+              style={{ height: "16px", width: "16px" }}
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="#fff"
+                d="M512 121.6c0 8-3.2 16-8 22.4l-225.6 240c-6.4 6.4-14.4 9.6-24 9.6-8 0-16-3.2-22.4-9.6l-224-240c-11.2-12.8-11.2-33.6 1.6-44.8 12.8-12.8 32-11.2 44.8 1.6l201.6 214.4 203.2-216c11.2-12.8 32-12.8 44.8 0 4.8 6.4 8 14.4 8 22.4z"
+              ></path>
+            </svg>
           </div>
         </section>
         <section className={styles.bigMenuContainer}>
