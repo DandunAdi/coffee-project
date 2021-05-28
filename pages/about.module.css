@@ -1,0 +1,20 @@
+.bannerContainer {
+  background-color: #000;
+  position: relative;
+}
+.banner {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.6;
+  height: 25rem;
+}
+
+.body {
+  padding: 2rem;
+}
+
+.paragraph {
+  margin: 1rem 0;
+}

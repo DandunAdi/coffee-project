@@ -49,6 +49,9 @@
 .text-center {
   text-align: center;
 }
+.text-white {
+  color: #fff;
+}
 .ls-2 {
   letter-spacing: 2px;
 }
