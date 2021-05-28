@@ -1,5 +1,5 @@
 const Title = ({ text, size, color }) => {
-  const textColor = color === "white" ? "#fff" : "rgb(68, 68, 68)";
+  const textColor = color ? color : "rgb(68, 68, 68)";
   return (
     <div style={{ padding: "2rem" }} className="flex">
       <div
@@ -12,7 +12,7 @@ const Title = ({ text, size, color }) => {
           color: textColor,
         }}
       >
-        <h1 className={size + " text-center"}>{text}</h1>
+        <h1 className={size + " text-center ls-2"}>{text}</h1>
       </div>
     </div>
   );

@@ -1,0 +1,7 @@
+.header {
+  background-image: url("/images/coffee_shop.jpg");
+  background-size: cover;
+}
+.mapContainer {
+  margin: 2rem 0;
+}
