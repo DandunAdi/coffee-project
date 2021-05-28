@@ -56,17 +56,17 @@ const BigMenuContainer = () => {
     <section className={styles.bigMenuContainer}>
       <BigMenu
         imgSrc="/images/coffee_at_hand.jpg"
-        title="ABOUT US"
+        title="TENTANG KAMI"
         href="/about"
       />
       <BigMenu
         imgSrc="/images/brew_coffee.jpg"
-        title="GALLERY"
+        title="GALERI"
         href="/gallery"
       />
       <BigMenu
         imgSrc="/images/coffee_shop.jpg"
-        title="LOCATIONS"
+        title="LOKASI"
         href="/locations"
       />
     </section>
