@@ -12,7 +12,7 @@ const Title = ({ text, size, color }) => {
           color: textColor,
         }}
       >
-        <h1 className={size + " text-center ls-2"}>{text}</h1>
+        <h1 className={size + " text-center ls-2 thin"}>{text}</h1>
       </div>
     </div>
   );

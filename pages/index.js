@@ -78,10 +78,8 @@ const Slider = () => {
     <section className="dot-bg" style={{ padding: "2rem 0" }}>
       <Title text="BEST SELLER" size="xxl" />
       <Carousel
-        infiniteLoop={true}
         showStatus={false}
         showThumbs={false}
-        autoPlay={true}
         centerMode={true}
         centerSlidePercentage={50}
       >
