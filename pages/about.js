@@ -18,13 +18,13 @@ const About = () => {
           </div>
 
           <div className={styles.body + " dot-bg"}>
-            <p class={styles.paragraph}>
+            <p className={styles.paragraph}>
               There is something magical about a warm cup of coffee. Enjoying it
               can be a complex ritual but also a simple feeling. We at Reykjavík
               Roasters try to recreate that feeling through every cup of coffee
               we offer you.
             </p>
-            <p class={styles.paragraph}>
+            <p className={styles.paragraph}>
               The concept behind our company is a simple one: we want to import
               good beans, roast them with care and brew them to the best of our
               abilities for the enjoyment of ourselves and all people who
@@ -44,7 +44,7 @@ const About = () => {
           </div>
 
           <div className={styles.body + " dot-bg"}>
-            <p class={styles.paragraph}>
+            <p className={styles.paragraph}>
               Jika kalian mulai bosan dengan kafe-kafe mainstream, kami
               menyediakan coffee shop bertema unik yang menyajikan banyak sekali
               spot foto instagramable. Tidak hanya cantik dan unik untuk stok

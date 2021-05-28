@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className={styles.container + " flex flex-between"}>
       <Link href="/">
-        <div className="flex">
+        <a className="flex">
           <div style={{ width: "30px", height: "30px" }}>
             <Image src="/images/rumahkopi.png" width="30px" height="30px" />
           </div>
@@ -14,7 +14,7 @@ const Navbar = () => {
           <span className="lg bold" style={{ marginLeft: "0.5rem" }}>
             RUMAH KOPI
           </span>
-        </div>
+        </a>
       </Link>
       <div className="flex" style={{ width: "20px", height: "30px" }}>
         <svg

@@ -15,7 +15,9 @@ const BigMenu = ({ title, imgSrc, href }) => {
           }}
         ></div>
         <Link href={href}>
-          <h1 className={styles.title + " xxl text-center"}>{title}</h1>
+          <a>
+            <h1 className={styles.title + " xxl text-center"}>{title}</h1>
+          </a>
         </Link>
         <div
           style={{
