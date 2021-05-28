@@ -19,16 +19,10 @@ const About = () => {
 
           <div className={styles.body + " dot-bg"}>
             <p className={styles.paragraph}>
-              There is something magical about a warm cup of coffee. Enjoying it
-              can be a complex ritual but also a simple feeling. We at Reykjavík
-              Roasters try to recreate that feeling through every cup of coffee
-              we offer you.
-            </p>
-            <p className={styles.paragraph}>
-              The concept behind our company is a simple one: we want to import
-              good beans, roast them with care and brew them to the best of our
-              abilities for the enjoyment of ourselves and all people who
-              appreciate great coffee.
+              Rumah Kopi Banjarnegara adalah salah satu coffee shop terbaik di
+              Banjarnegara yang didirikan pada tahun 2012. Terletak di Komplek
+              Ruko Atrium Square Banjarnegara, kedai kami menjual biji kopi
+              robusta dan arabika dengan kualitas terbaik.
             </p>
           </div>
         </section>
