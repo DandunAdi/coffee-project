@@ -54,9 +54,21 @@ const HomeHero = () => {
 const BigMenuContainer = () => {
   return (
     <section className={styles.bigMenuContainer}>
-      <BigMenu imgSrc="/images/coffee_at_hand.jpg" title="ABOUT US" />
-      <BigMenu imgSrc="/images/brew_coffee.jpg" title="GALLERY" />
-      <BigMenu imgSrc="/images/coffee_shop.jpg" title="LOCATIONS" />
+      <BigMenu
+        imgSrc="/images/coffee_at_hand.jpg"
+        title="ABOUT US"
+        href="/about"
+      />
+      <BigMenu
+        imgSrc="/images/brew_coffee.jpg"
+        title="GALLERY"
+        href="/gallery"
+      />
+      <BigMenu
+        imgSrc="/images/coffee_shop.jpg"
+        title="LOCATIONS"
+        href="/locations"
+      />
     </section>
   );
 };
