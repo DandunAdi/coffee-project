@@ -27,6 +27,7 @@
   height: 100vh;
   background-color: #fff;
   z-index: 99;
+  overflow: scroll;
 }
 .mobileMenuLink {
   padding: 1rem;
