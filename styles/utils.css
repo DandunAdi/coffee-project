@@ -20,7 +20,8 @@
 }
 
 .wrapper {
-  max-width: 80rem;
+  max-width: 75rem;
+  margin: auto;
 }
 
 .xxl {

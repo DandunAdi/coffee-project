@@ -18,12 +18,14 @@ const About = () => {
           </div>
 
           <div className={styles.body + " dot-bg"}>
-            <p className={styles.paragraph}>
-              Rumah Kopi Banjarnegara adalah salah satu coffee shop terbaik di
-              Banjarnegara yang didirikan pada tahun 2012. Terletak di Komplek
-              Ruko Atrium Square Banjarnegara, kedai kami menjual biji kopi
-              robusta dan arabika dengan kualitas terbaik.
-            </p>
+            <div className="wrapper">
+              <p className={styles.paragraph}>
+                Rumah Kopi Banjarnegara adalah salah satu coffee shop terbaik di
+                Banjarnegara yang didirikan pada tahun 2012. Terletak di Komplek
+                Ruko Atrium Square Banjarnegara, kedai kami menjual biji kopi
+                robusta dan arabika dengan kualitas terbaik.
+              </p>
+            </div>
           </div>
         </section>
         <section>
@@ -38,13 +40,15 @@ const About = () => {
           </div>
 
           <div className={styles.body + " dot-bg"}>
-            <p className={styles.paragraph}>
-              Jika kalian mulai bosan dengan kafe-kafe mainstream, kami
-              menyediakan coffee shop bertema unik yang menyajikan banyak sekali
-              spot foto instagramable. Tidak hanya cantik dan unik untuk stok
-              foto kalian, Rumah Kopi Banjarnegara juga menawarkan banyak
-              menu-menu menarik dengan harga yang ramah di kantong.
-            </p>
+            <div className="wrapper">
+              <p className={styles.paragraph}>
+                Jika kalian mulai bosan dengan kafe-kafe mainstream, kami
+                menyediakan coffee shop bertema unik yang menyajikan banyak
+                sekali spot foto instagramable. Tidak hanya cantik dan unik
+                untuk stok foto kalian, Rumah Kopi Banjarnegara juga menawarkan
+                banyak menu-menu menarik dengan harga yang ramah di kantong.
+              </p>
+            </div>
           </div>
         </section>
       </main>
