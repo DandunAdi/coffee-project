@@ -5,7 +5,7 @@ import styles from "./about.module.css";
 const About = () => {
   return (
     <Layout>
-      <main style={{ marginTop: "5rem" }}>
+      <main>
         <section>
           <div className={styles.bannerContainer}>
             <div

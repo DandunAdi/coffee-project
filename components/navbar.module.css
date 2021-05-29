@@ -15,9 +15,6 @@
   margin-left: 2rem;
   font-size: 1.1874rem;
 }
-.menu:hover {
-  color: var(--gray);
-}
 
 .mobileMenu {
   position: fixed;
@@ -37,6 +34,9 @@
 @media (min-width: 48rem) {
   .container {
     padding: 0 4rem;
+    height: 6rem;
+    background-color: transparent;
+    color: #fff;
   }
   .menuContainer {
     display: flex;
