@@ -1,5 +1,6 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import { useMediaQuery } from "react-responsive";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Head from "next/head";
@@ -74,25 +75,41 @@ const BigMenuContainer = () => {
 };
 
 const Slider = () => {
+  const isDesktopOrLaptop = useMediaQuery({
+    query: "(min-width: 48rem)",
+  });
+  const carouselChildren = [1, 2, 3, 4, 5, 6].map((i) => (
+    <div key={i}>
+      <Image src={`/images/label/${i}.png`} width="400px" height="400px" />
+    </div>
+  ));
   return (
-    <section className="dot-bg" style={{ padding: "2rem 0" }}>
+    <section
+      className={styles.slider + " dot-bg"}
+      style={{ padding: "2rem 0" }}
+    >
       <Title text="BEST SELLER" size="xxl" />
-      <Carousel
-        showStatus={false}
-        showThumbs={false}
-        centerMode={true}
-        centerSlidePercentage={50}
-      >
-        {[1, 2, 3, 4, 5, 6].map((i) => (
-          <div key={i}>
-            <Image
-              src={`/images/label/${i}.png`}
-              width="400px"
-              height="400px"
-            />
-          </div>
-        ))}
-      </Carousel>
+      {isDesktopOrLaptop ? (
+        <Carousel
+          showStatus={false}
+          showThumbs={false}
+          centerMode={true}
+          centerSlidePercentage={30}
+          autoPlay={true}
+          infiniteLoop={true}
+        >
+          {carouselChildren}
+        </Carousel>
+      ) : (
+        <Carousel
+          showStatus={false}
+          showThumbs={false}
+          centerMode={true}
+          centerSlidePercentage={50}
+        >
+          {carouselChildren}
+        </Carousel>
+      )}
     </section>
   );
 };

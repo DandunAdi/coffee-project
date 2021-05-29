@@ -28,9 +28,12 @@
 }
 
 @media (min-width: 48rem) {
+  .hero {
+    background-size: cover;
+  }
   .heroLogo {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
   }
   .heroSkipButton {
     display: flex;
