@@ -19,6 +19,10 @@
   display: inline-block;
 }
 
+.wrapper {
+  max-width: 80rem;
+}
+
 .xxl {
   font-size: 2.8125rem;
 }

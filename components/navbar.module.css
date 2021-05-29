@@ -8,9 +8,25 @@
   width: 100%;
   z-index: 99;
 }
+.menuContainer {
+  display: none;
+}
+.menu {
+  margin-left: 2rem;
+  font-size: 1.1874rem;
+}
+.menu:hover {
+  color: var(--gray);
+}
 
 @media (min-width: 48rem) {
   .container {
-    padding: 0 2rem;
+    padding: 0 4rem;
+  }
+  .menuContainer {
+    display: flex;
+  }
+  .hamburger {
+    display: none;
   }
 }

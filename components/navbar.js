@@ -16,7 +16,36 @@ const Navbar = () => {
           </span>
         </a>
       </Link>
-      <div className="flex" style={{ width: "20px", height: "30px" }}>
+
+      <nav className={styles.menuContainer}>
+        <ul className="flex">
+          <li className={styles.menu + " lg"}>
+            <Link href="/">
+              <a>HOME</a>
+            </Link>
+          </li>
+          <li className={styles.menu + " lg"}>
+            <Link href="/about">
+              <a>TENTANG KAMI</a>
+            </Link>
+          </li>
+          <li className={styles.menu + " lg"}>
+            <Link href="/gallery">
+              <a>GALERI FOTO</a>
+            </Link>
+          </li>
+          <li className={styles.menu + " lg"}>
+            <Link href="/locations">
+              <a>LOKASI</a>
+            </Link>
+          </li>
+        </ul>
+      </nav>
+
+      <div
+        className={styles.hamburger + " flex"}
+        style={{ width: "20px", height: "30px" }}
+      >
         <svg
           aria-hidden="true"
           focusable="false"

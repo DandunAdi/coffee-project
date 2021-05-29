@@ -24,6 +24,9 @@ p {
 img {
   width: 100%;
 }
+ul {
+  list-style: none;
+}
 
 * {
   box-sizing: border-box;
