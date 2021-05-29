@@ -19,6 +19,20 @@
   color: var(--gray);
 }
 
+.mobileMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 99;
+}
+.mobileMenuLink {
+  padding: 1rem;
+  border-bottom: 1px solid var(--gray);
+}
+
 @media (min-width: 48rem) {
   .container {
     padding: 0 4rem;

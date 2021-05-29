@@ -1,9 +1,12 @@
 import styles from "./navbar.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 const Navbar = () => {
-  return (
+  const [isOpen, setIsOpen] = useState(false);
+
+  return !isOpen ? (
     <div className={styles.container + " flex flex-between"}>
       <Link href="/">
         <a className="flex">
@@ -45,6 +48,7 @@ const Navbar = () => {
       <div
         className={styles.hamburger + " flex"}
         style={{ width: "20px", height: "30px" }}
+        onClick={() => setIsOpen(true)}
       >
         <svg
           aria-hidden="true"
@@ -61,6 +65,33 @@ const Navbar = () => {
           ></path>
         </svg>
       </div>
+    </div>
+  ) : (
+    <div className={styles.mobileMenu}>
+      <nav>
+        <ul>
+          <Link href="/">
+            <li className={styles.mobileMenuLink}>
+              <a>HOME</a>
+            </li>
+          </Link>
+          <Link href="/about">
+            <li className={styles.mobileMenuLink}>
+              <a>TENTANG KAMI</a>
+            </li>
+          </Link>
+          <Link href="/gallery">
+            <li className={styles.mobileMenuLink}>
+              <a>GALERI FOTO</a>
+            </li>
+          </Link>
+          <Link href="/locations">
+            <li className={styles.mobileMenuLink}>
+              <a>LOKASI</a>
+            </li>
+          </Link>
+        </ul>
+      </nav>
     </div>
   );
 };
